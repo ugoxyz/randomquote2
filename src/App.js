@@ -5,7 +5,10 @@ import "./quotes.js";
 import AllQuotes from "./quotes.js";
 
 function App() {
-  const [quotes, setQuotes] = useState("");
+  const [quotes, setQuotes] = useState("Someone Said...");
+  // const [isLoading, setIsloading] = useState(false)
+
+
 
   const fetchQuote = () => {
     let quoteRandomizer = Math.floor(Math.random() * AllQuotes.length);
@@ -29,17 +32,16 @@ function App() {
   // let randomColor = Math.floor(Math.random() * MY_COLORS.length);
   const colors = [
     "#16a085",
-    "#27ae60",
+    "#0c6b2c",
     "#2c3e50",
-    "#f39c12",
-    "#e74c3c",
-    "#9b59b6",
-    "#FB6964",
+    "#b57309",
+    "#db2d1b",
+    "#743d8a",
+    "#c31551",
     "#342224",
-    "#472E32",
-    "#BDBB99",
-    "#77B1A9",
-    "#73A857",
+    "#636240",
+    "#41726b",
+    "#52783e",
   ];
 
   let randomColor = Math.floor(Math.random() * colors.length);
@@ -76,7 +78,7 @@ function App() {
                   {" "}
                   <img
                     className="avi"
-                    alt="xcc"
+                    alt="x"
                     src={quotes.avi}>
 
                   </img>
@@ -94,7 +96,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="button-div">
+        <div >
           {/* <div className="spaced">
             {" "}
             <a
@@ -107,7 +109,7 @@ function App() {
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </div> */}
-          <div>
+          <div className="button-div">
             {" "}
             <button
               className="my-button"
