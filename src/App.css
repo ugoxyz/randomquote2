@@ -155,3 +155,7 @@ a {
   align-content: flex-start;
   border-radius: 30px;
 }
+
+.spinner{
+  transform: scale(0.1);
+}

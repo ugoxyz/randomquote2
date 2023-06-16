@@ -3,16 +3,16 @@ import "./App.css";
 import domtoimage from "dom-to-image";
 import "./quotes.js";
 import AllQuotes from "./quotes.js";
+import Spinners from "./Spinners.jsx"
 
 function App() {
   const [quotes, setQuotes] = useState("");
-  // const [isLoading, setIsloading] = useState(false)
-
-
+  const [loading, setLoading] = useState(true);
 
   const fetchQuote = () => {
     let quoteRandomizer = Math.floor(Math.random() * AllQuotes.length);
     setQuotes(AllQuotes[quoteRandomizer]);
+    setLoading()
   };
 
   // const fetchQuote = () => {
@@ -49,6 +49,8 @@ function App() {
 
   document.body.style.backgroundColor = myColor;
 
+  window.addEventListener("load", fetchQuote);
+
   const downloadRef = useRef();
 
   const downloadImage = () => {
@@ -61,43 +63,38 @@ function App() {
     });
   };
 
-  return (
-    <div>
-      <div className="container">
-        <div className="App" ref={downloadRef}>
-          <div>
-            <div className="quote-body">
-              <div className="text">
-                <blockquote style={{ color: myColor }}>
-                  <q> {quotes.text}</q>
-                </blockquote>
-              </div>
-              <div className="author-box">
-                {" "}
-                <div>
+  if (!loading) {
+    return (
+      <div>
+        <div className="container">
+          <div className="App" ref={downloadRef}>
+            <div>
+              <div className="quote-body">
+                <div className="text">
+                  <blockquote style={{ color: myColor }}>
+                    <q> {quotes.text}</q>
+                  </blockquote>
+                </div>
+                <div className="author-box">
                   {" "}
-                  <img
-                    className="avi"
-                    alt="x"
-                    src={quotes.avi}>
-
-                  </img>
+                  <div>
+                    {" "}
+                    <img className="avi" alt="x" src={quotes.avi}></img>
+                  </div>
+                  <div>
+                    <div className="author" style={{ color: myColor }}>
+                      {quotes.author}
+                    </div>
+                    <div className="author-title" style={{ color: myColor }}>
+                      {quotes.title}
+                    </div>
+                  </div>
                 </div>
-                <div>
-                     <div className="author" style={{ color: myColor }}>
-                  {quotes.author}
-                </div>
-                <div className="author-title" style={{ color: myColor }}>
-                  {quotes.title}
-                </div>
-                </div>
-             
               </div>
             </div>
           </div>
-        </div>
-        <div >
-          {/* <div className="spaced">
+          <div>
+            {/* <div className="spaced">
             {" "}
             <a
               // eslint-disable-next-line no-template-curly-in-string
@@ -109,25 +106,33 @@ function App() {
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </div> */}
-          <div className="button-div">
-            {" "}
-            <button
-              className="my-button"
-              onClick={fetchQuote}
-              style={{ backgroundColor: myColor, cursor: "pointer" }}
-            >
+            <div className="button-div">
               {" "}
-              New Quote{" "}
-            </button>
-            <button className="my-button" onClick={downloadImage}>
-              {" "}
-              Download
-            </button>
-          </div>
-        </div>{" "}
+              <button
+                className="my-button"
+                onClick={fetchQuote}
+                style={{ backgroundColor: myColor, cursor: "pointer" }}
+              >
+                {" "}
+                New Quote{" "}
+              </button>
+              <button className="my-button" onClick={downloadImage}>
+                {" "}
+                Download
+              </button>
+            </div>
+          </div>{" "}
+        </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    
+    return (
+      <div className="container spinner"><img src="spinner.gif" alt="spinner" />
+      
+      <Spinners className="spinner" size={30}/>
+      </div>)
+  }
 }
 
 export default App;
