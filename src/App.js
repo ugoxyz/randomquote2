@@ -5,7 +5,7 @@ import "./quotes.js";
 import AllQuotes from "./quotes.js";
 
 function App() {
-  const [quotes, setQuotes] = useState("Someone Said...");
+  const [quotes, setQuotes] = useState("");
   // const [isLoading, setIsloading] = useState(false)
 
 
