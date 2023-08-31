@@ -3,7 +3,8 @@ import "./App.css";
 import domtoimage from "dom-to-image";
 import "./quotes.js";
 import AllQuotes from "./quotes.js";
-import Spinners from "./Spinners.jsx"
+import Spinners from "./Spinners.jsx";
+import { TwitterIcon, TwitterShareButton } from "react-share";
 
 function App() {
   const [quotes, setQuotes] = useState("");
@@ -12,7 +13,7 @@ function App() {
   const fetchQuote = () => {
     let quoteRandomizer = Math.floor(Math.random() * AllQuotes.length);
     setQuotes(AllQuotes[quoteRandomizer]);
-    setLoading()
+    setLoading();
   };
 
   // const fetchQuote = () => {
@@ -120,18 +121,24 @@ function App() {
                 {" "}
                 Download
               </button>
+              {/* {"Start from here"} */}
+              <TwitterShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+                {/* <button>Share</button> */}
+                <TwitterIcon />
+              </TwitterShareButton>
             </div>
           </div>{" "}
         </div>
       </div>
     );
   } else {
-    
     return (
-      <div className="container spinner"><img src="spinner.gif" alt="spinner" />
-      
-      <Spinners className="spinner" size={30}/>
-      </div>)
+      <div className="container spinner">
+        <img src="spinner.gif" alt="spinner" />
+
+        <Spinners className="spinner" size={30} />
+      </div>
+    );
   }
 }
 

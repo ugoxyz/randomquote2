@@ -155,7 +155,35 @@ let AllQuotes = [
     author: "Kendall Roy",
     avi: "https://www.famousbirthdays.com/headshots/jeremy-strong-movieactor-4.jpg",
     title: "Succession",
+  }, {
+    text: "Not taking risks is an extremely risky strategy.",
+    author: "Magnus Carlsen",
+    avi: "https://upload.wikimedia.org/wikipedia/commons/a/a3/World_Chess_Championship_2021%2C_game_07%2C_Magnus_Carlsen_%28SQ-cropped%29.jpg",
+    title: "Chess Grandmaster",
+  }, {
+    text: "The only power I have in this world was planted into my head by a single mother and wrapped around my finger by a woman far better than I ever hope to be.",
+    author: "Nick Fury",
+    avi: "https://hips.hearstapps.com/hmg-prod/images/nick-fury-eye-1552397861.jpg?crop=0.488xw:0.976xh;0,0&resize=1200:*",
+    title: "Secret Invasion",
   },
+  {
+    text: "You can't be everything to everybody.",
+    author: "J.Cole",
+    avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
+    title: "Musician",
+  },{
+    text: "If they don't know your dreams, they can't shoot them down.",
+     author: "J.Cole",
+    avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
+    title: "Musician",
+  },
+  {
+    text: "I wonder if you know what it means to find your dreams have come true.",
+    author: "Kanye West",
+    avi: "https://imageio.forbes.com/specials-images/imageserve/5ed00f17d4a99d0006d2e738/0x0.jpg?format=jpg&crop=4666,4663,x154,y651,safe&height=416&width=416&fit=bounds",
+    title: "Musician",
+  }
+
 ];
 
 //////////////////////////26 Quotes///////////////////////////////
