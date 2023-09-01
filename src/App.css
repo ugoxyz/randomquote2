@@ -5,12 +5,17 @@
   transition: all 0.15s ease-in;
 }
 
+.main-container{
+ display: flex;
+ flex-direction: row;
+ padding: 50px;
+}
+
 .container {
   min-height: min-content;
-  margin: auto;
   padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
-  padding: 50px;;
+  
 
 }
 
@@ -48,7 +53,7 @@ body {
   font-size: 18px;
   margin: 10px;
   height: 10px;
-  text-align: right;
+  text-align: left;
   
 }
 
@@ -119,9 +124,21 @@ blockquote q {
   background-color: rgb(255, 255, 255);
   color: aliceblue;
   min-height: 50px;
-  padding: 10px 10px 00px 0px;
+  padding: 10px 0px 10px 0px;
   border-radius: 5px;
   width: 300px;
+  text-align: center;
+}
+
+.share-button-div{
+  display: flex;  
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  color: aliceblue;
+  min-height: 300px;
+  padding: 10px 010px 10px 10px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -146,7 +163,7 @@ a {
   display: flex;
   flex-direction: row;
   text-align: right;
-  align-items:end;
+  align-items:left;
   filter: grayscale(50%)
 }
 .avi{

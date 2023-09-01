@@ -4,7 +4,16 @@ import domtoimage from "dom-to-image";
 import "./quotes.js";
 import AllQuotes from "./quotes.js";
 import Spinners from "./Spinners.jsx";
-import { TwitterIcon, TwitterShareButton } from "react-share";
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  TelegramIcon,
+  TelegramShareButton,
+  TwitterIcon,
+  TwitterShareButton,
+  WhatsappIcon,
+  WhatsappShareButton,
+} from "react-share";
 
 function App() {
   const [quotes, setQuotes] = useState("");
@@ -66,7 +75,26 @@ function App() {
 
   if (!loading) {
     return (
-      <div>
+      <div className="main-container">
+        <div className="share-button-div">
+          <TwitterShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+            {/* <button>Share</button> */}
+            <TwitterIcon size={40} round={true} bgStyle={{ fill: "black" }} />
+          </TwitterShareButton>
+          <FacebookShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+            {/* <button>Share</button> */}
+            <FacebookIcon size={40} round={true} bgStyle={{ fill: "black" }} />
+          </FacebookShareButton>
+          <TelegramShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+            {/* <button>Share</button> */}
+            <TelegramIcon size={40} round={true} bgStyle={{ fill: "black" }} />
+          </TelegramShareButton>
+
+          <WhatsappShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+            <WhatsappIcon size={40} round={true} bgStyle={{ fill: "black" }} />
+          </WhatsappShareButton>
+        </div>
+
         <div className="container">
           <div className="App" ref={downloadRef}>
             <div>
@@ -121,11 +149,6 @@ function App() {
                 {" "}
                 Download
               </button>
-              {/* {"Start from here"} */}
-              <TwitterShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
-                {/* <button>Share</button> */}
-                <TwitterIcon />
-              </TwitterShareButton>
             </div>
           </div>{" "}
         </div>
