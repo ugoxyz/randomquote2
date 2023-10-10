@@ -5,17 +5,17 @@
   transition: all 0.15s ease-in;
 }
 
-.main-container{
- display: flex;
- flex-direction: row;
- padding: 50px;
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
 }
 
 .container {
   min-height: min-content;
   padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
-  
+
 
 }
 
@@ -41,35 +41,43 @@ body {
   font-size: 24px;
   margin: 10px;
   padding-top: 50px;
-   min-height: 200px;
+  min-height: 200px;
   width: fit-content;
   text-align: right;
-  font-style:normal;
+  font-style: normal;
   text-transform: uppercase;
 }
 
 .author {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   margin: 10px;
   height: 10px;
   text-align: left;
-  
+
 }
 
-.author-title{
+.author-title {
   font-family: 'Lucida Sans Unicode', sans-serif;
   font-size: 10px;
   margin: 10px;
   height: 10px;
   text-align: left;
   text-transform: uppercase;
-  
+
 }
 
 .App {
   text-align: center;
-  background: linear-gradient(to bottom right, #c4e0fe, #c1ffca);
+
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   display: flex;
   color: aliceblue;
   flex-direction: column;
@@ -79,7 +87,7 @@ body {
   align-items: center;
   width: 400px;
   min-height: 350px;
-  box-shadow: 2px 2px 2px 2px rgb(70, 70, 70, 1);
+  box-shadow: 2px 2px 2px 2px rgb(70, 70, 70, 0.4);
   /* From https://css.glass */
 }
 
@@ -92,7 +100,7 @@ blockquote q {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  
+
 }
 
 .my-button {
@@ -114,14 +122,18 @@ blockquote q {
   cursor: pointer;
 }
 
-.button-div { 
-  display: flex;  
+.button-div {
+  display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   margin: auto;
   margin-top: 20px;
-  background-color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: aliceblue;
   min-height: 50px;
   padding: 10px 0px 10px 0px;
@@ -130,16 +142,21 @@ blockquote q {
   text-align: center;
 }
 
-.share-button-div{
-  display: flex;  
+.share-button-div {
+  display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 20px;
   color: aliceblue;
-  min-height: 300px;
+  min-height: 200px;
   padding: 10px 010px 10px 10px;
   border-radius: 5px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 a {
@@ -158,21 +175,22 @@ a {
 
 }
 
-.author-box{
+.author-box {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   text-align: right;
-  align-items:left;
+  align-items: left;
   filter: grayscale(50%)
 }
-.avi{
+
+.avi {
   width: 50px;
   height: 50px;
   align-content: flex-start;
   border-radius: 30px;
 }
 
-.spinner{
+.spinner {
   transform: scale(0.1);
 }

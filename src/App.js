@@ -76,6 +76,9 @@ function App() {
   if (!loading) {
     return (
       <div className="main-container">
+
+        {/* FIXME: */}
+
         <div className="share-button-div">
           <TwitterShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
             {/* <button>Share</button> */}
