@@ -25,6 +25,8 @@ function App() {
     setLoading();
   };
 
+  const shareURL = window.location.href;
+
   // const fetchQuote = () => {
   //   fetch("https://type.fit/api/quotes")
   //     .then((res) => res.json())
@@ -76,24 +78,35 @@ function App() {
   if (!loading) {
     return (
       <div className="main-container">
-
         {/* FIXME: */}
 
         <div className="share-button-div">
-          <TwitterShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+          <TwitterShareButton
+            url={shareURL}
+            title="I got some cool random quotes here."
+          >
             {/* <button>Share</button> */}
             <TwitterIcon size={40} round={true} bgStyle={{ fill: "black" }} />
           </TwitterShareButton>
-          <FacebookShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+          <FacebookShareButton
+            url={shareURL}
+            quote="I got some cool random quotes here."
+          >
             {/* <button>Share</button> */}
             <FacebookIcon size={40} round={true} bgStyle={{ fill: "black" }} />
           </FacebookShareButton>
-          <TelegramShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+          <TelegramShareButton
+            url={shareURL}
+            title="I got some cool random quotes here."
+          >
             {/* <button>Share</button> */}
             <TelegramIcon size={40} round={true} bgStyle={{ fill: "black" }} />
           </TelegramShareButton>
 
-          <WhatsappShareButton url="https://stackoverflow.com/questions/45144386/how-to-implement-share-to-twitter-with-react-js">
+          <WhatsappShareButton
+            url={shareURL}
+            title="I got some cool random quotes here."
+          >
             <WhatsappIcon size={40} round={true} bgStyle={{ fill: "black" }} />
           </WhatsappShareButton>
         </div>
@@ -108,12 +121,12 @@ function App() {
                   </blockquote>
                 </div>
                 <div className="author-box">
-                  {" "}
-                  <div>
+                  <div className="author-profile">
                     {" "}
-                    <img className="avi" alt="x" src={quotes.avi}></img>
-                  </div>
-                  <div>
+                    <div>
+                      {" "}
+                      <img className="avi" alt="x" src={quotes.avi}></img>
+                    </div>
                     <div className="author" style={{ color: myColor }}>
                       {quotes.author}
                     </div>

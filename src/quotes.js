@@ -1,4 +1,5 @@
 let AllQuotes = [
+
   {
     text: "There are no two words in the English language more harmful than 'good job'",
     author: "Terence Fletcher",
@@ -65,7 +66,7 @@ let AllQuotes = [
     author: "Babe Ruth",
     avi: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/babe-ruth-boston-red-sox-colorized-20170622-square-wingsdomain-art-and-photography.jpg",
     title: "Baseball Player",
- },
+  },
   {
     text: "We move.",
     author: "Anonymous",
@@ -171,9 +172,9 @@ let AllQuotes = [
     author: "J.Cole",
     avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
     title: "Musician",
-  },{
+  }, {
     text: "If they don't know your dreams, they can't shoot them down.",
-     author: "J.Cole",
+    author: "J.Cole",
     avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
     title: "Musician",
   },
@@ -182,9 +183,82 @@ let AllQuotes = [
     author: "Kanye West",
     avi: "https://imageio.forbes.com/specials-images/imageserve/5ed00f17d4a99d0006d2e738/0x0.jpg?format=jpg&crop=4666,4663,x154,y651,safe&height=416&width=416&fit=bounds",
     title: "Musician",
+  },
+
+  {
+    text: "The plan was to drink until the pain was over. But what's worse? The pain or the hangover?",
+    author: "Kanye West",
+    avi: "https://imageio.forbes.com/specials-images/imageserve/5ed00f17d4a99d0006d2e738/0x0.jpg?format=jpg&crop=4666,4663,x154,y651,safe&height=416&width=416&fit=bounds",
+    title: "Musician",
+  }, {
+    text: "I don't keep scores, I settle them.",
+    author: "Israel Adesanya",
+    avi: "https://cdn.vox-cdn.com/thumbor/Yda83cr6aJzFQUGuTUn_YIkQUMg=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23926245/1406460380.jpg",
+    title: "UFC Champion",
+  }, {
+    text: "You can never see a hater who's doing better than you in life.",
+    author: "Israel Adesanya",
+    avi: "https://cdn.vox-cdn.com/thumbor/Yda83cr6aJzFQUGuTUn_YIkQUMg=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23926245/1406460380.jpg",
+    title: "UFC Champion",
+  }, {
+    text: "Once you start kneeling and praying, it's hard to get back to standing and thinking.",
+    author: "Cleon (Brother Day)",
+    avi: "https://i.pinimg.com/736x/a5/42/8a/a5428a92d6700ab3413d32effa3ca666.jpg",
+    title: "Foundation S02",
+  }, {
+    text: "Never let your sense of morals prevent you from doing what's right.",
+    author: "Salvor Harding",
+    avi: "https://static01.nyt.com/images/2021/09/24/arts/23foundation/23foundation-mediumSquareAt3X.jpg",
+    title: "Foundation S02",
+  },
+
+  {
+    text: "We don't die; we multiply. We'll never touch down till we touch the sky.",
+    author: "Phyno",
+    avi: "https://guardian.ng/wp-content/uploads/2021/06/Phyno-Bags-Endorsement-Deal-With-New-Age-As-They-Unveil-Earphones.-2-e1575631322690-1.jpg",
+    title: "Musician",
+  },
+
+  {
+    text: "Impatience for victory will guarantee defeat.",
+    author: "Baylan Skoll",
+    avi: "https://ovicio.com.br/wp-content/uploads/2023/09/20230912-baylan-skoll-encarando-ceu-em-ahsoka-555x555.jpg",
+    title: "Foundation S02",
+  }, {
+    text: "Never underestimate the man who overestimates himself.",
+    author: "Chuck Rhoades",
+    avi: "https://pyxis.nymag.com/v1/imgs/fc8/9e1/f4bdcf2595ef209865e53a9d01681bc669-Billions-701-6635-R.1x.rsquare.w1400.jpg",
+    title: "Billions S07",
+  }, {
+    text: "I wonder if the 'sad' I get from being without you would be less than the 'sad' I get from being with you.",
+    author: "Tom Wambsgans",
+    avi: "https://cdn.theatlantic.com/thumbor/sCNZDY5RVCzTlCxP2ie7AqC3V3c=/766x0:1786x1020/540x540/media/img/mt/2023/05/matthew_macfadyen_3/original.jpg",
+    title: "Succession",
+  }, {
+    text: "We all believe we'd run into the burning building. But until you feel that heat, you can never know.",
+    author: "Fay",
+    avi: "https://m.media-amazon.com/images/M/MV5BZGNmY2ZiYzctZTA0Zi00ODU4LWJmMGQtM2M3MGFlZTIyNGU4XkEyXkFqcGdeQXVyNjA5NDgxNTg@._V1_UY200_CR78,0,200,200_AL_.jpg",
+    title: "Tenet",
   }
 
+  , {
+    text: "What man really fears is not so much extinction but extinction with insignificance..",
+    author: "Ernest Becker",
+    avi: "https://ernestbecker.org/wp-content/uploads/2020/05/becker-3.jpg",
+    title: "Cultural Anthropologist",
+  }
+
+  , {
+    text: "Sometimes I wish I took a simpler route instead of having demons as big as my house.",
+    author: "Mac Miller",
+    avi: "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+    title: "Musician",
+  }
+
+    //Nov 28// 
+
+ /* */
 ];
 
-//////////////////////////26 Quotes///////////////////////////////
+////////////////////////// 43 Quotes///////////////////////////////
 export default AllQuotes;
