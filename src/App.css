@@ -8,15 +8,13 @@
 .main-container {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  padding: 10px;
 }
 
 .container {
   min-height: min-content;
   padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
-
-
 }
 
 body {
@@ -25,7 +23,6 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
-
 }
 
 .header {
@@ -37,10 +34,12 @@ body {
 }
 
 .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Futura', sans-serif;
-  font-size: 24px;
-  margin: 10px;
-  padding-top: 50px;
+  font-size: 20px;
+   margin-top: 10px;
   min-height: 200px;
   width: fit-content;
   text-align: center;
@@ -105,6 +104,10 @@ blockquote q {
   cursor: pointer;
 }
 
+.my-button:active{
+  transform: scale(1.2);
+}
+
 .button-div {
   display: flex;
   flex-direction: row;
@@ -159,7 +162,7 @@ a {
 }
 
 .author-box {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   width: auto;
   flex-direction: row;

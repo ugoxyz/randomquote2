@@ -240,7 +240,6 @@ let AllQuotes = [
     avi: "https://m.media-amazon.com/images/M/MV5BZGNmY2ZiYzctZTA0Zi00ODU4LWJmMGQtM2M3MGFlZTIyNGU4XkEyXkFqcGdeQXVyNjA5NDgxNTg@._V1_UY200_CR78,0,200,200_AL_.jpg",
     title: "Tenet",
   }
-
   , {
     text: "What man really fears is not so much extinction but extinction with insignificance..",
     author: "Ernest Becker",
@@ -258,7 +257,86 @@ let AllQuotes = [
     //Nov 28// 
 
  /* */
+
+ , {
+  text: "Sometimes man may be required simply to accept fate, to bear his cross.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "What matters, therefore, is not the meaning of life in general but rather the specific meaning of a person's life at a given moment.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "To suffer unnecessarily is masochistic rather than heroic.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "Pleasure is, and must remain, a side-effect or by-product, and is destroyed and spoiled to the degree to which it is made a goal in itself.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "Live as if you were living for the second time and had acted as wrongly the first time as you are about to act now.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "An abnormal reaction to an abnormal situation is normal behaviour.",
+  author: "Viktor Frankl",
+  avi: "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2013/03/frankl3.jpg?w=680&ssl=1",
+  title: "Author",
+}, {
+  text: "Never attribute to malice that which is adequately explained by stupidity, ignorance or incompetence.",
+  author: "Robert J Hanlon",
+  avi: "https://policyoptions.irpp.org/wp-content/uploads/sites/2/2023/12/Robert-J.-Hanlon.jpg",
+  title: "Author",
+}, {
+  text: " We choose to do these things not because they are easy but because they are hard…because that challenge is one that we're willing to accept, one we are unwilling to postpone.",
+  author: "J.F. Kennedy",
+  avi: "https://www.whitehouse.gov/wp-content/uploads/2021/01/35_john_f_kennedy.jpg",
+  title: "US President",
+}, {
+  text: "Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+  author: "Albus Dumbledore",
+  avi: "https://pyxis.nymag.com/v1/imgs/3f9/c36/23dbbdc64586fd8482563156344c7dfaa9-11-dumbledore.rsquare.w400.jpg",
+  title: "Harry Potter",
+}, {
+  text: "No matter what a man says, anything he does in the end is what he intended to do all along.",
+  author: "Cus D'Amato",
+  avi: "https://image-cdn.essentiallysports.com/wp-content/uploads/mike-tyson-excerpt-leadjpg.jpg",
+  title: "Boxing Coach",
+}, {
+  text: "Regret is the worst thing because it is a solitary sentence.",
+  author: "Teddy Atlas",
+  avi: "https://axischemicals.files.wordpress.com/2012/03/teddy-atlas.jpg?w=584",
+  title: "Boxing Coach",
+}, {
+  text: "Sometimes I wish I took a simpler route instead of having demons as big as my house.",
+  author: "Mac Miller",
+  avi: "https://i.scdn.co/image/ab6761610000e5ebed3b89aa602145fde71a163a",
+  title: "Musician",
+},{
+  text: "Better to have a short life doing what you love than a long life doing something that makes you miserable.",
+  author: "Alan Watts",
+  avi: "https://bigthink.com/wp-content/uploads/2019/03/origin-4.png?w=640",
+  title: "Philosophical Entertainer",
+},
+{
+  text: "I struggled with some demons, they were middle class and tame.",
+  author: "Leornard Cohen",
+  avi: "https://hips.hearstapps.com/hmg-prod/images/leonard-cohen-GettyImages-109366805_1600.jpg",
+  title: "Canadian Singer",
+},
+
+
+//Dec 30// 
+
+ /* */
+
 ];
 
-////////////////////////// 43 Quotes///////////////////////////////
+////////////////////////// 56 Quotes///////////////////////////////
 export default AllQuotes;
