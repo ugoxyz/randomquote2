@@ -243,7 +243,7 @@ let AllQuotes = [
   , {
     text: "What man really fears is not so much extinction but extinction with insignificance..",
     author: "Ernest Becker",
-    avi: "https://ernestbecker.org/wp-content/uploads/2020/05/becker-3.jpg",
+    avi: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/authors/1264786909i/1895._UX200_CR0,22,200,200_.jpg",
     title: "Cultural Anthropologist",
   }
 
@@ -331,12 +331,114 @@ let AllQuotes = [
   title: "Canadian Singer",
 },
 
-
 //Dec 30// 
+
+{
+  text: "Misfortune weighs most heavily on those who expect nothing but good fortune.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+{
+  text: "Learning how to live takes a whole life, and it takes a whole life to learn how to die.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+{
+  text: "You think no worse is possible? This is the prelude.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+{
+  text: "If you wish to put off all worry, assume that what you fear may happen is certainly going to happen.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+{
+  text: "What need is there to weep over parts of life? The whole of it calls for tears.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+{
+  text: "Whatever can happen at any time, can happen today.",
+  author: "Seneca",
+  avi: "https://www.psicologia.com/fotos/seneca-y-el-memento-mori-un-cambio-de-enfoque-para-la-vida.jpg",
+  title: "Philosopher",
+},
+
+{
+  text: "The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane.",
+  author: "Marcus Aurelius",
+  avi: "https://images.squarespace-cdn.com/content/v1/6310b9584a80996cbe9c5d35/3dca99f9-eeb9-4010-9ca6-92a74ea9baa7/Marcus_Aurelius_pink_and_blue_highlights.png",
+  title: "Emperor and Philosopher",
+},
+{
+  text: "Once we are dead, it doesn't really matter what happens.",
+  author: "Marcus Aurelius",
+  avi: "https://images.squarespace-cdn.com/content/v1/6310b9584a80996cbe9c5d35/3dca99f9-eeb9-4010-9ca6-92a74ea9baa7/Marcus_Aurelius_pink_and_blue_highlights.png",
+  title: "Emperor and Philosopher",
+},
+{
+  text: "Your days are numbered. Use them to throw open the windows of your soul to the sun. If you do not, the sun will soon set, and you with it.",
+  author: "Marcus Aurelius",
+  avi: "https://images.squarespace-cdn.com/content/v1/6310b9584a80996cbe9c5d35/3dca99f9-eeb9-4010-9ca6-92a74ea9baa7/Marcus_Aurelius_pink_and_blue_highlights.png",
+  title: "Emperor and Philosopher",
+},
+
+
+{
+  text: "Your pain is the breaking of the shell that encloses your understanding. It is the bitter potion by which the physician within you heals your sick self. Therefore, trust the physician and drink his remedy in silence and tranquility.",
+  author: "Khalil Gibran",
+  avi: "https://www.grainesdepaix.org/en/resources/be-inspired/authors/gibran-gibran-khalil/@@images/861012c8-e374-475d-a1e1-0d3acb458d87.jpeg",
+  title: "Author",
+},
+{
+  text: "History does not remember blood. It remembers names.",
+  author: "Lord Corlys Velaryon",
+  avi: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b1a373ba-eb6a-44b5-80f6-1ec63b562d39/dfg9azc-5e246b90-6820-44d1-9cb1-6dd7f8073b0a.png/v1/fill/w_915,h_873,q_70,strp/lord_corlys_velaryon_by_flamarok_dfg9azc-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTcxIiwicGF0aCI6IlwvZlwvYjFhMzczYmEtZWI2YS00NGI1LTgwZjYtMWVjNjNiNTYyZDM5XC9kZmc5YXpjLTVlMjQ2YjkwLTY4MjAtNDRkMS05Y2IxLTZkZDdmODA3M2IwYS5wbmciLCJ3aWR0aCI6Ijw9MTAxNyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.xI7pL9V9kob0jGAtqI9WZFaUDRn18UGyrc9-le3WM7s",
+  title: "House of the Dragon",
+},
+{
+  text: "Every lie we tell incurs a debt to the truth. Sooner or later, that debt is paid.",
+  author: "Valery Legasov",
+  avi: "https://d.newsweek.com/en/full/1500400/jared-harris-valery-legasov-chernobyl.jpg?w=1600&h=1600&q=88&f=c57a43695f66b9ae4a0b4a174e2d4e86",
+  title: "Chernobyl 2016",
+},
+{
+  text: "The obstacle in the path becomes the path. Never forget, within every obstacle is an opportunity to improve our condition.",
+  author: "Ryan Holiday",
+  avi: "https://www.nbforum.com/wp-content/uploads/ryan-holiday-colors-back-600x587.jpg",
+  title: "Author",
+},
+{
+  text: "The paradigm of philosophical interaction is the quiet conversation of friends who have an intimate knowledge of one another's character and situation.",
+  author: "Martha Nussbaum",
+  avi: "https://humanities-web.s3.us-east-2.amazonaws.com/philosophy/prod/styles/square_image_large/s3/2017-11/Martha%20Nussbaum%20%5Bsquare%5D.jpg?itok=ImW901Rh",
+  title: "Author",
+},
+{
+  text: "Resentment is like drinking poison and waiting for the other person to die.",
+  author: "St. Augustine",
+  avi: "https://www.catholic.org/files/images/saints/ahippo.gif",
+  title: "Philosopher",
+},
+{
+  text: "You can't mourn the loss of the love you never had.",
+  author: "Somebody",
+  avi: "https://roninamok.com/wp-content/uploads/2022/01/Asset-3ronin-e1641503869994-300x279.png",
+  title: "Ronin",
+},
+
+
+//Jan 30// 
 
  /* */
 
 ];
 
-////////////////////////// 56 Quotes///////////////////////////////
+////////////////////////// 72 Quotes///////////////////////////////
 export default AllQuotes;
