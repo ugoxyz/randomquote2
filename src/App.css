@@ -37,8 +37,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Futura', sans-serif;
-  font-size: 1.25em;
+  font-weight:600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
    margin-top: 10px;
   min-height: 200px;
   width: fit-content;
