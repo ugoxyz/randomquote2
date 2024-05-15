@@ -14,6 +14,8 @@ import {
   WhatsappIcon,
   WhatsappShareButton,
 } from "react-share";
+import Ronin from "./Ronin.jsx";
+
 
 function App() {
   const [quotes, setQuotes] = useState("");
@@ -27,21 +29,6 @@ function App() {
 
   const shareURL = window.location.href;
 
-  // const fetchQuote = () => {
-  //   fetch("https://type.fit/api/quotes")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       let quoteRandomizer = Math.floor(Math.random() * data.length);
-  //       setQuotes(data[quoteRandomizer]);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   fetchQuote();
-  // }, []);
-
-  // const [mainColor,setColor] = useState("#defdef");
-  // let randomColor = Math.floor(Math.random() * MY_COLORS.length);
   const colors = [
     "#16a085",
     "#0c6b2c",
@@ -139,18 +126,7 @@ function App() {
             </div>
           </div>
           <div>
-            {/* <div className="spaced">
-            {" "}
-            <a
-              // eslint-disable-next-line no-template-curly-in-string
-              href="https://twitter.com/intent/tweet?text=${quotes.text}"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </div> */}
+        
             <div className="button-div">
               {" "}
               <button
@@ -166,6 +142,7 @@ function App() {
                 Download
               </button>
             </div>
+            <div className="footer"><Ronin className="logo"/></div>
           </div>{" "}
         </div>
       </div>

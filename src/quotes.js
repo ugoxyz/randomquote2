@@ -537,10 +537,71 @@ let AllQuotes = [
   },
 
     //April 13//
+
+    {
+      text: "The only thing worse than death is a regret-filled coffin, so try before you die or always wonder 'what if?'",
+      author: "J.Cole",
+      avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
+      title: "Musician",
+    },{
+      text: "We ain't picture perfect, but we're worth the picture still.",
+      author: "J.Cole",
+      avi: "https://media.gq.com/photos/63c8d5a6cd63aa9138b13c7b/1:1/w_3641,h_3641,c_limit/1246142881",
+      title: "Musician",
+    },{
+      text: "I refuse to accept other people's ideas of happiness for me. As if there's a 'one size fits all' standard for happiness.",
+      author: "Kanye West",
+      avi: "https://imageio.forbes.com/specials-images/imageserve/5ed00f17d4a99d0006d2e738/0x0.jpg?format=jpg&crop=4666,4663,x154,y651,safe&height=416&width=416&fit=bounds",
+      title: "Musician",
+    },
+
+    {
+      text: "I'll slap a dude and hide the Bible if God's watching.",
+      author: "Kendrick Lamar",
+      avi: "https://i8.amplience.net/i/naras/MI0004224402-MN0002709646",
+      title: "Musician",
+    },
+    {
+      text: "Look inside of my soul and you can find gold and maybe get rich. Look inside of your soul and you can find out it never existed.",
+      author: "Kendrick Lamar",
+      avi: "https://i8.amplience.net/i/naras/MI0004224402-MN0002709646",
+      title: "Musician",
+    },
+    {
+      text: "Everybody's gonna respect the shooter, but the one in front of the gun lives forever.",
+      author: "Kendrick Lamar",
+      avi: "https://i8.amplience.net/i/naras/MI0004224402-MN0002709646",
+      title: "Musician",
+    },
+    {
+      text: "Pressure? What pressure? Pressure is poor people in the world trying to feed their families. There is no pressure in football.",
+      author: "Jose Mourinho",
+      avi: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYL7-138-AhUzfKaFMdN-UjvEvLL02T-UalKLQcO-Y0ePOFTDLYwLQ0oq2gj5yM7Gt9PY&usqp=CAU",
+      title: "Football Coach",
+    },
+    {
+      text: "The moral of the story is not to listen to those who tell you not to play the violin but stick to the tambourine.",
+      author: "Jose Mourinho",
+      avi: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYL7-138-AhUzfKaFMdN-UjvEvLL02T-UalKLQcO-Y0ePOFTDLYwLQ0oq2gj5yM7Gt9PY&usqp=CAU",
+      title: "Football Coach",
+    },
+    {
+      text: "Imagination will often carry us to worlds that never were, but without it, we go nowhere.",
+      author: "Carl Sagan",
+      avi: "https://hips.hearstapps.com/hmg-prod/images/carl-sagan.jpg",
+      title: "Author",
+    },
+    {
+      text: "In our obscurity - in all this vastness - there is no hint that help will come from elsewhere to save us from ourselves. It is up to us.",
+      author: "Carl Sagan",
+      avi: "https://hips.hearstapps.com/hmg-prod/images/carl-sagan.jpg",
+      title: "Author",
+    },
      
+    //May 15//
   /* */
 
 ];
 
-////////////////////////// 91 Quotes///////////////////////////////
+////////////////////////// 101 Quotes///////////////////////////////
 export default AllQuotes;
